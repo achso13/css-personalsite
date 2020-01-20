@@ -1,0 +1,159 @@
+/* HTML TAG */
+
+body {
+  color: #606060;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+h1 {
+  color: #1f86d9;
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+  margin: 50px auto 0;
+}
+
+h2 {
+  color: #247bc2;
+  font-family: 'Bree Serif', serif;
+  margin: 0;
+}
+
+h3 {
+  color: #1f86d9;
+  margin-top: 0;
+  font-family: 'Bree Serif', serif;
+}
+
+hr {
+  border: dotted 10px #69bcff;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%;
+}
+
+p {
+  margin: 0;
+  text-decoration: none;
+}
+
+a {
+  color: #69bcff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/* CLASS */
+
+.top-container {
+  background: #69bcff;
+  padding: 100px 0 0;
+  position: relative;
+}
+
+.chat-top {
+  color: #5fe9ec;
+  position: absolute;
+  right: 350px;
+  top: 40px;
+  width: 100px;
+}
+
+.chat-bottom {
+  bottom: 250px;
+  color: #5fe9ec;
+  left: 350px;
+  position: absolute;
+  width: 100px;
+}
+
+.guy {
+  width: 250px;
+}
+
+.middle-container {
+  line-height: 2;
+  margin: 0 auto;
+}
+
+.profile {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 40%;
+}
+
+.skills {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.programming-skill {
+  margin: 50px auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.programming-images {
+  float: left;
+  margin-right: 25px;
+  width: 25%;
+}
+
+.web-skill {
+  margin: 50px auto;
+  padding: 10px;
+  text-align: left;
+}
+
+.web-images {
+  float: right;
+  margin-left: 25px;
+  width: 25%;
+}
+
+.bottom-container {
+  background-color: #1f86d9;
+  line-height: 2;
+  padding: 30px 0 40px;
+}
+
+.contact {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.btn {
+  background: linear-gradient(#69bcff,#1f86d9);
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px grey;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  margin: 40px auto 0;
+  padding: 5px 15px 6px 15px;
+}
+
+.btn:hover {
+  background: linear-gradient(#1f86d9,#69bcff);
+  color: #606060;
+}
+
+.socmed-logo {
+  width: 20px;
+
+}
+
+.footer-link {
+  margin: 0 15px 5px 5px;
+}
+
+.credits {
+  color: white;
+  font-size: 0.5em;
+  margin: 10px;
+}
